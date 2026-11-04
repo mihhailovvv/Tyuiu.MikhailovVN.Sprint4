@@ -26,7 +26,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task0.V9
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int[] numsArray = { 4, 6, 2, 8, 4, 5, 6, 9, 8, 7 };s
+            int[] numsArray = { 4, 6, 2, 8, 4, 5, 6, 9, 8, 7 };
 
             Console.Write("Массив: { ");
             for (int i = 0; i < numsArray.Length; i++)

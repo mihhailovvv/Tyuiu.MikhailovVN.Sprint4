@@ -20,7 +20,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task0.V9.Test
             int actual = ds.GetSumEvenArrEl(numsArray);
 
             // Проверка на равенство
-            Assert.AreEqual(expected, actual);s
+            Assert.AreEqual(expected, actual);
         }
     }
 }

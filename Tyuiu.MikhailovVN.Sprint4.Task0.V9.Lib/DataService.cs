@@ -15,7 +15,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task0.V9.Lib
                     sum += array[i];
                 }
             }
-            return sum;s
+            return sum;
         }
     }
 }
