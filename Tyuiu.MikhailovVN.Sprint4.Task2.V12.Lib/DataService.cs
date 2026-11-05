@@ -9,7 +9,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task2.V12.Lib
             int multArray = 1;
             for (int i = 0; i <= array.Length - 1; i++)
             {
-                if (array[i] % 2 != 0)
+                if (array[i] % 2 == 1)
                 {
                     multArray += array[i];
                 }
