@@ -13,7 +13,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task2.V12.Test
             int[] numaArray = { 6, 7, 6, 7, 5, 7, 6, 7, 9, 4, 6, 5, 8, 5 };
 
             int res = ds.Calculate(numaArray);
-            int wait = 41472;
+            int wait = 53;
 
             Assert.AreEqual(wait, res);
         }

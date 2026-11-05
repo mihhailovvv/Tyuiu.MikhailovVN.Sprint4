@@ -25,9 +25,16 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task2.V12
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int[] numsArray = { 4, 6, 7, 5, 8, 9, 4, 5, 6, 7, 8, 9, 4, 5 };
+            int len = 14;
+            int[] numsArray = new int[len];
 
             Console.WriteLine("Исходный массив: ");
+            for (int i = 0; i < numsArray.Length; i++)
+            {
+                numsArray[i] = rand.Next(4, 10);
+            }
+
+            Console.WriteLine("Массив, заполненный генератором случайных чисел:");
             for (int i = 0; i < numsArray.Length; i++)
             {
                 Console.Write(numsArray[i] + " ");

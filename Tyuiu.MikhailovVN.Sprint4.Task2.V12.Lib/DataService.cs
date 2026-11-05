@@ -11,7 +11,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task2.V12.Lib
             {
                 if (array[i] % 2 != 0)
                 {
-                    multArray *= array[i];
+                    multArray += array[i];
                 }
             }
             return multArray;
