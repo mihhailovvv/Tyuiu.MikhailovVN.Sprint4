@@ -6,15 +6,15 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task2.V12.Lib
     {
         public int Calculate(int[] array)
         {
-            int multArray = 1;
-            for (int i = 0; i <= array.Length - 1; i++)
+            int sum = 0;
+            for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 == 1)
                 {
-                    multArray += array[i];
+                    sum += array[i];
                 }
             }
-            return multArray;
+            return sum;
         }
     }
 }
