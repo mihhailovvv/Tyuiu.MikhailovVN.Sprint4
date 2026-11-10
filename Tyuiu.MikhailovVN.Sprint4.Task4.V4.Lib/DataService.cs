@@ -7,11 +7,11 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task4.V4.Lib
         public int[,] Calculate(int[,] matrix)
         {
             int lines = matrix.GetLength(0);
-            int cols = matrix.GetLength(1);
+            int coles = matrix.GetLength(1);
 
             for (int i = 0; i < lines; i++)
             {
-                for (int j = 0; j < cols; j++)
+                for (int j = 0; j < coles; j++)
                 {
                     if (matrix[i, j] % 2 == 0)
                     {

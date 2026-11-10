@@ -25,12 +25,11 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task4.V4
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int rows = 5;
+            int lines = 5;
             int cols = 5;
-            int[,] matrix = new int[rows, cols];
+            int[,] matrix = new int[lines, cols];
 
-            // Ввод матрицы с клавиатуры поэлементно
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < lines; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
@@ -40,7 +39,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task4.V4
             }
 
             Console.WriteLine("\nИсходная матрица:");
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < lines; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
@@ -56,7 +55,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task4.V4
             int[,] resultMatrix = ds.Calculate(matrix);
 
             Console.WriteLine("Результирующий массив: ");
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < lines; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {

@@ -10,7 +10,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task4.V4.Test
         {
             DataService ds = new DataService();
 
-            int[,] matrix = {
+            int[,] mtx = {
                 { 5, 9, 6, 8, 5 },
                 { 6, 6, 7, 3, 8 },
                 { 4, 3, 9, 8, 7 },
@@ -25,7 +25,7 @@ namespace Tyuiu.MikhailovVN.Sprint4.Task4.V4.Test
                 { 1, 3, 1, 1, 1 }
             };
 
-            int[,] res = ds.Calculate(matrix);
+            int[,] res = ds.Calculate(mtx);
 
             CollectionAssert.AreEqual(wait, res);
         }
